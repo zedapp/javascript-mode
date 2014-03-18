@@ -1,0 +1,6 @@
+{
+    "name": "JavaScript mode",
+    "version": "0.1",
+    "description": "JavaScript mode for Zed",
+    "files": ["beautify.js", "beautify-js.js", "check.js", "ctags.js", "jshint.js"]
+}
