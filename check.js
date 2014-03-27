@@ -39,8 +39,6 @@ function isValidJS(str) {
     return false;
 }
 
-
-
 function findIdentifierRange(line, startColumn) {
     var pos = {
         column: startColumn,
@@ -81,11 +79,11 @@ function findIdentifierRange(line, startColumn) {
 /**
  * Required inputs: text
  */
-module.exports = function(info, callback) {
+module.exports = function(info) {
     var value = info.inputs.text;
     value = value.replace(/^#!.*\n/, "\n");
     if (!value) {
-        return callback(null, []);
+        return [];
     }
     var lines = value.split("\n");
     var errors = [];
@@ -154,5 +152,5 @@ module.exports = function(info, callback) {
             raw: raw
         });
     }
-    callback(null, errors);
+    return errors;
 };
