@@ -32,8 +32,8 @@
                     },
                     internal: true
                 },
-                "Tools:CTags": {
-                    scriptUrl: "./ctags.js",
+                "Tools:Index": {
+                    scriptUrl: "./index.js",
                     inputs: {
                         text: true
                     },
@@ -62,7 +62,7 @@
             },
             handlers: {
                 index: [
-                    "Tools:CTags"
+                    "Tools:Index"
                 ],
                 check: [
                     "Tools:Check"
