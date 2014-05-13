@@ -7,7 +7,7 @@
         "beautify-js.js",
         "beautify.js",
         "check.js",
-        "ctags.js",
+        "index.js",
         "jshint.js"
     ]
 }
