@@ -6,6 +6,7 @@
             extensions: [
                 "js"
             ],
+            completionTriggers: ["."],
             commands: {
                 "Tools:Check": {
                     scriptUrl: "./check.js",
