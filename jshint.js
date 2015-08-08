@@ -13257,7 +13257,7 @@ function now() {
 
   // Export lodash.
   var _ = runInContext();
-  root._ = _;
+  module.exports = _;
 }.call(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
