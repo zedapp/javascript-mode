@@ -23043,4 +23043,6 @@ if (typeof exports === "object" && exports) {
 JSHINT = require('jshint').JSHINT;
 if (typeof exports === 'object' && exports) exports.JSHINT = JSHINT;
 }());
+
+return JSHINT;
 });
