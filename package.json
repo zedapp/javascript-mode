@@ -1,7 +1,7 @@
 {
     "name": "JavaScript mode",
-    "uri": "gh:zedapp/javascript-mode",
-    "version": "0.2",
+    "uri": "gh:thekiteeatingtree/javascript-mode",
+    "version": "0.3",
     "description": "JavaScript mode for Zed",
     "files": [
         "beautify-js.js",
