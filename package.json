@@ -1,6 +1,6 @@
 {
     "name": "JavaScript mode",
-    "uri": "gh:thekiteeatingtree/javascript-mode",
+    "uri": "gh:zedapp/javascript-mode",
     "version": "0.3",
     "description": "JavaScript mode for Zed",
     "files": [
